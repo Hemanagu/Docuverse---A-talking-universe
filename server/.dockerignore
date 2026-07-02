@@ -1,0 +1,30 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+.env.local
+
+# Don't bake uploads or collected data into the image
+uploads/
+vector_store/
+*.index
+*_docs.pkl
+
+# Development artifacts
+.git/
+.gitignore
+*.md
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.DS_Store

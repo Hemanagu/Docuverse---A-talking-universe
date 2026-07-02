@@ -1,0 +1,38 @@
+fastapi
+uvicorn[standard]
+python-multipart
+jinja2
+
+# PDF parsing
+pdfplumber
+Pillow
+
+# Embeddings (Pattern 12 — free, local)
+sentence-transformers
+
+# Embedding fallback (Pattern 14 — keyword LSA)
+scikit-learn
+
+# Vector store (Pattern 4 — primary)
+qdrant-client
+
+# Vector store fallback (Pattern 14 — in-memory Numpy)
+# (Uses numpy, already installed via sentence-transformers)
+
+# HTTP client (Ollama LLM calls)
+httpx
+
+# NLP / Knowledge graphs (Patterns 2, 5)
+spacy
+networkx
+
+# Async job queue (Pattern 11)
+arq
+
+# Utilities
+python-dotenv
+
+# Audio STT/TTS
+edge-tts
+SpeechRecognition
+pydub
