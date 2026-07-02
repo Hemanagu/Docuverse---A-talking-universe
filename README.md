@@ -1,4 +1,4 @@
-# DocuVerse v2 – Advanced Agentic RAG
+# DocuVerse 
 
 **DocuVerse** is a high-performance, multi-stage RAG (Retrieval-Augmented Generation) engine designed for precise document Q&A. It utilizes the blazing-fast **Groq API** and specialized local processing to handle complex PDFs, images, and tables with 100% accuracy.
 
