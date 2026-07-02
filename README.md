@@ -87,5 +87,5 @@ npm run dev
 | `REDIS_HOST` | `valkey` | Background worker broker |
 
 ---
-*Built with ❤️ for High-Performance RAG.*
+
 
